@@ -8,8 +8,14 @@
 # 2. What do you notice about the code below?
 # 3. What issues could potentially crop up?
 # 4. Is there an alternative you could propose?
-
+require 'pry'
 students = ["Megan", "Bob", "Mike"]
+
+students.each do |student|
+  binding.pry
+end
+
+puts
 # puts students[0]
 # puts students[1]
 # puts students[2]

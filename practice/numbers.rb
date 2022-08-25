@@ -2,6 +2,16 @@
 
 numbers = [1,2,3,4,5]
 
+odd_numbers = []
+
+numbers.each do |number|
+  if number.odd?
+    odd_numbers << number
+  end
+end
+
+p odd_numbers
+
 # 1. Can you create a new array with only the odd numbers?
 # 2. Can you create a new array with only the even numbers?
 # 3. Can you print out each number doubled?

@@ -2,6 +2,14 @@
 
 singers = ["billie", "ariana", "lizzo", "leon"]
 
+singers.each do |singer|
+  #singers_cap <<
+  singers.capitalize
+end
+
+puts singers
+
+
 # 1. Can you print out their names capitalized?
 # 2. Can you print out their names in all caps?
 # 3. Can you print out their names but reversed? (["leon", "lizzo", "ariana", "billie"])
